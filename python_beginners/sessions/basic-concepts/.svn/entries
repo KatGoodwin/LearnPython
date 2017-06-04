@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="567"
+   name=""
+   committed-date="2005-08-24T10:58:45.445134Z"
+   url="http://localhost:8080/svn/training/python_beginners/sessions/basic-concepts"
+   last-author="kat"
+   kind="dir"
+   uuid="b22b469e-84d2-0310-a31a-e481f3221026"
+   revision="567"/>
+<entry
+   committed-rev="560"
+   name="loops.html"
+   text-time="2005-08-24T09:29:55.000000Z"
+   committed-date="2005-08-22T11:59:52.851575Z"
+   checksum="958da6dcf5aa4ceddd9bc6f5403aa2b3"
+   last-author="kat"
+   kind="file"
+   prop-time="2005-08-24T09:29:56.000000Z"/>
+<entry
+   committed-rev="567"
+   name="if.html"
+   text-time="2005-08-24T10:38:18.000000Z"
+   committed-date="2005-08-24T10:58:45.445134Z"
+   checksum="a967cdc3660733c8a0bbc5c0bfc8fc0a"
+   last-author="kat"
+   kind="file"
+   prop-time="2005-08-24T10:38:28.000000Z"/>
+<entry
+   committed-rev="539"
+   name="simple-numbers.html"
+   text-time="2005-08-24T09:29:55.000000Z"
+   committed-date="2005-08-12T14:38:28.121803Z"
+   checksum="63e92f6933575856e2bde7ca2d56ba39"
+   last-author="kat"
+   kind="file"
+   prop-time="2005-08-24T09:29:56.000000Z"/>
+<entry
+   committed-rev="551"
+   name="essentials-exercises.html"
+   text-time="2005-08-24T09:29:55.000000Z"
+   committed-date="2005-08-19T13:20:17.670799Z"
+   checksum="291b0905c3bf69976c978670c29020fb"
+   last-author="kat"
+   kind="file"
+   prop-time="2005-08-24T09:29:56.000000Z"/>
+<entry
+   committed-rev="551"
+   name="essentials.html"
+   text-time="2005-08-24T09:29:55.000000Z"
+   committed-date="2005-08-19T13:20:17.670799Z"
+   checksum="5557851d3f52795bdfb21a32b5de0243"
+   last-author="kat"
+   kind="file"
+   prop-time="2005-08-24T09:29:56.000000Z"/>
+<entry
+   name="examples"
+   kind="dir"/>
+</wc-entries>

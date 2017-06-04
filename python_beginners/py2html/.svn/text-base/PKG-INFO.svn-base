@@ -1,0 +1,56 @@
+Metadata-Version: 1.0
+Name: py2html
+Version: 0.62
+Summary: Mark-up Python code file using HTML for syntax highlighting.
+Home-page: http://www.peck.org.uk/p/python
+Author: Paul Hardwick
+Author-email: paul@peck.org.uk
+License: GNU GPL
+Description: Mark-up Python code file using HTML for syntax highlighting.
+        Syntax highlighting rules are in the spirit of IDLE.
+        
+        Unless the -r 0 option is used it will also format the code by
+        applying some of the PEP8 spacing guidelines to expressions and
+        assignments.
+        
+        For those that want a GUI you can try py2htmTk.pyw -
+        (it's minimal but functional).
+        
+        USAGE in command line mode:
+        py2html [options] [-i filename]|-I]
+        
+        OPTIONS:
+        -h          Print this command line summary
+        --help      Print more detailed help on styles and
+        revision info.
+        -o filename Output file (default is "py2html.html")
+        -i filename Source file. See -I.
+        -p filename HTML page template (must include a %s for inserting
+        the code). If not specified then a default is used.
+        -s filename Use a style-file otherwise use built in styles
+        (see --help for details)
+        -r 0|1|2    Reformat expressions and definitions.
+        -r 0  No formatting
+        -r 1  Format as  a = 3+4; b = [1, 2, 3]  (default)
+        -r 2  Format as  a = 3 + 4; b = [1 , 2 , 3]
+        -R          Replace newlines with <br>, tabs and multi-spaces
+        with &nbsp;
+        -B          Just make a block (ignores -p)
+        -O          Print to sys.stdout (ignores -o, no file created)
+        -I          Use stdin as source file (ignore -i option)
+        -E 0|1|2|3|4    0 - Don't do entity substitution.
+        1 - Substitute < > and & (default)
+        2 - Substitute < > & and "
+        3 - Substitute <> & " and '
+        4 - Substitute all non-ASCIIalphanumeric
+        
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: Freely Distributable
+Classifier: Programming Language :: Python
+Classifier: Topic :: Text Processing :: Markup :: HTML
+Classifier: Topic :: Software Development :: Documentation
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Unix

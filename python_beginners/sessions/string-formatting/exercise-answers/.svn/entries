@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="557"
+   name=""
+   committed-date="2005-08-22T10:21:29.952032Z"
+   url="http://localhost:8080/svn/training/python_beginners/sessions/string-formatting/exercise-answers"
+   last-author="kat"
+   kind="dir"
+   uuid="b22b469e-84d2-0310-a31a-e481f3221026"
+   revision="567"/>
+<entry
+   committed-rev="557"
+   name="ex1-answer.py"
+   text-time="2005-08-24T09:30:05.000000Z"
+   committed-date="2005-08-22T10:21:29.952032Z"
+   checksum="8dcfe55957bf13f387ae28040881bde5"
+   last-author="kat"
+   kind="file"
+   prop-time="2005-08-24T09:30:06.000000Z"/>
+</wc-entries>

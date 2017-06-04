@@ -1,0 +1,12 @@
+# This file uses font tags
+#Should work in all browsers
+
+block | <pre class="python_code" id="pycode"> | </pre>
+key | |  
+num |  | 
+str | <font color="green"> | </font>
+op  |  | 
+com | <font color="red"> | </font>
+res | <font color="orange"> | </font>
+def | <font color="blue"> | </font>
+brk |  | 

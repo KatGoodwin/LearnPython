@@ -1,0 +1,3 @@
+ - string formatting operator precendence stuff removed from string formatting as it appears too early for that stuff 
+ - taken some of the details out of string formatting (like naming input to formatting as a tuple, and mentioning about using dict for name args)
+

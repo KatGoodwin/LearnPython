@@ -1,0 +1,15 @@
+#A copy of the py2html default style
+#
+# Format:
+# styleName | start | end
+#
+
+block | <pre class="python_code" id="pycode"> | </pre>
+key | <span class="py_key"> | </span> 
+num | <span class="py_num"> | </span>
+str | <span class="py_str"> | </span>
+op  | <span class="py_op">  | </span>
+com | <span class="py_com"> | </span>
+res | <span class="py_res"> | </span>
+def | <span class="py_def"> | </span>
+brk | <span class="py_brk"> | </span>

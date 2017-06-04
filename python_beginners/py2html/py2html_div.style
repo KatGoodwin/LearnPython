@@ -1,0 +1,14 @@
+#This style uses a <div> block
+#Source code will normally require
+#space and \n substitution
+#
+
+block | <div class="python_code" id="pycode"> | </div>
+key |<span class="py_key">|</span> 
+num | <span class="py_num"> | </span>
+str | <span class="py_str"> | </span>
+op  | <span class="py_op"> | </span>
+com | <span class="py_com"> | </span>
+res | <span class="py_res"> | </span>
+def | <span class="py_def"> | </span>
+brk | <span class="py_brk"> | </span>

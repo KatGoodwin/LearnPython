@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="541"
+   name=""
+   committed-date="2005-08-15T11:44:05.217986Z"
+   url="http://localhost:8080/svn/training/python_beginners/sessions/algorithms-1/patterns"
+   last-author="kat"
+   kind="dir"
+   uuid="b22b469e-84d2-0310-a31a-e481f3221026"
+   revision="567"/>
+<entry
+   committed-rev="537"
+   name="multiple-squares.png"
+   text-time="2005-08-24T09:30:01.000000Z"
+   committed-date="2005-08-12T12:50:21.939902Z"
+   checksum="431483b3d6ea3725b1c15a3d2b3184ed"
+   last-author="kat"
+   kind="file"
+   prop-time="2005-08-24T09:30:02.000000Z"/>
+<entry
+   committed-rev="536"
+   name="square1.png"
+   text-time="2005-08-24T09:30:01.000000Z"
+   committed-date="2005-08-12T11:49:19.175423Z"
+   checksum="cd766c7da1b581c0790b60e8a6ab99e0"
+   last-author="kat"
+   kind="file"
+   prop-time="2005-08-24T09:30:02.000000Z"/>
+<entry
+   committed-rev="537"
+   name="square-instructions.html"
+   text-time="2005-08-24T09:30:01.000000Z"
+   committed-date="2005-08-12T12:50:21.939902Z"
+   checksum="e289b5808ee28304d265bc6d9712c0d4"
+   last-author="kat"
+   kind="file"
+   prop-time="2005-08-24T09:30:02.000000Z"/>
+<entry
+   committed-rev="536"
+   name="square2.png"
+   text-time="2005-08-24T09:30:01.000000Z"
+   committed-date="2005-08-12T11:49:19.175423Z"
+   checksum="57462f75f76d02f4a58f87817f5b9cd5"
+   last-author="kat"
+   kind="file"
+   prop-time="2005-08-24T09:30:02.000000Z"/>
+<entry
+   committed-rev="536"
+   name="square3.png"
+   text-time="2005-08-24T09:30:01.000000Z"
+   committed-date="2005-08-12T11:49:19.175423Z"
+   checksum="d5d42f4b8af137ea15d1a55435024a63"
+   last-author="kat"
+   kind="file"
+   prop-time="2005-08-24T09:30:02.000000Z"/>
+<entry
+   committed-rev="536"
+   name="square4.png"
+   text-time="2005-08-24T09:30:01.000000Z"
+   committed-date="2005-08-12T11:49:19.175423Z"
+   checksum="586fb1b5abba7a348a13f15e6ea7edf3"
+   last-author="kat"
+   kind="file"
+   prop-time="2005-08-24T09:30:03.000000Z"/>
+<entry
+   committed-rev="536"
+   name="square5.png"
+   text-time="2005-08-24T09:30:01.000000Z"
+   committed-date="2005-08-12T11:49:19.175423Z"
+   checksum="0f7f87900fb69e794ef38a2434f744a2"
+   last-author="kat"
+   kind="file"
+   prop-time="2005-08-24T09:30:03.000000Z"/>
+<entry
+   committed-rev="536"
+   name="square6.png"
+   text-time="2005-08-24T09:30:01.000000Z"
+   committed-date="2005-08-12T11:49:19.175423Z"
+   checksum="7b9cff212c84bd43cf25fef221a6783e"
+   last-author="kat"
+   kind="file"
+   prop-time="2005-08-24T09:30:03.000000Z"/>
+<entry
+   committed-rev="537"
+   name="square-instructions.py"
+   text-time="2005-08-24T09:30:01.000000Z"
+   committed-date="2005-08-12T12:50:21.939902Z"
+   checksum="3c96b9d9d77c130ee3fb4f97ecd1e7bb"
+   last-author="kat"
+   kind="file"
+   prop-time="2005-08-24T09:30:03.000000Z"/>
+<entry
+   committed-rev="536"
+   name="square7.png"
+   text-time="2005-08-24T09:30:01.000000Z"
+   committed-date="2005-08-12T11:49:19.175423Z"
+   checksum="2dad4c504f2d33f1d107d256d64ec83c"
+   last-author="kat"
+   kind="file"
+   prop-time="2005-08-24T09:30:03.000000Z"/>
+<entry
+   committed-rev="536"
+   name="square8.png"
+   text-time="2005-08-24T09:30:01.000000Z"
+   committed-date="2005-08-12T11:49:19.175423Z"
+   checksum="49f355016292f2429b708905ab42e256"
+   last-author="kat"
+   kind="file"
+   prop-time="2005-08-24T09:30:03.000000Z"/>
+<entry
+   committed-rev="536"
+   name="swirl-example.png"
+   text-time="2005-08-24T09:30:01.000000Z"
+   committed-date="2005-08-12T11:49:19.175423Z"
+   checksum="9484fd155bc8800f3d559db3d30c2635"
+   last-author="kat"
+   kind="file"
+   prop-time="2005-08-24T09:30:03.000000Z"/>
+</wc-entries>

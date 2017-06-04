@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="565"
+   name=""
+   committed-date="2005-08-22T15:09:42.530169Z"
+   url="http://localhost:8080/svn/training/python_beginners/sessions/sequences"
+   last-author="kat"
+   kind="dir"
+   uuid="b22b469e-84d2-0310-a31a-e481f3221026"
+   revision="567"/>
+</wc-entries>

@@ -1,0 +1,196 @@
+<!DOCTYPE html PUBLIC "-//W5C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>Python for New Programmers</title>
+    <meta name="version" content="S5 1.0" />
+    <link rel="stylesheet" href="../../slides-css/ui/slides.css" type="text/css" media="projection" id="slideProj" />
+    <link rel="stylesheet" href="../../slides-css/ui/opera.css" type="text/css" media="projection" id="operaFix" />
+    <link rel="stylesheet" href="../../slides-css/ui/print.css" type="text/css" media="print" id="slidePrint" />
+    <script src="../../slides-css/ui/slides.js" type="text/javascript"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+
+<body>
+<div class="layout">
+
+<div id="currentSlide"></div>
+    <div id="header"></div>
+    <div id="footer">
+    <h1>Clockwork Software Systems</h1>
+    <h2>Python For New Programmers</h2>
+    <div id="controls"></div>
+    </div>
+</div>
+
+
+<div class="presentation">
+
+<div class='slide'>
+    <h1></h1>
+    <blockquote>
+        <br /><br />
+        <h2>Python For New Programmers</h2>
+        <h1>Some essential concepts</h1>
+    </blockquote>
+</div>
+
+
+<div class='slide'>
+    <h1>The Essential Concepts</h1>
+    <ul>
+        <li>Before we can really get started, we need to know certain terms</li>
+        <li>We are going to cover them in enough detail to understand:
+            <ul>
+                <li>What the terms mean</li>
+                <li>How they relate to each other<li>
+                <li>How they fit into the overall scheme of a 'program'</li>
+            </ul>
+        </li>
+        <li>We're going to give a few basic examples here, and then refer back to the theory when we're writing algorithms in our next session</li>
+    </ul>
+</div>
+
+<div class='slide'>
+    <h1>The Essential Concepts</h1>
+    <ul>
+        <li>Literals</li>
+        <li>Identifiers and Variables</li>
+        <li>Data Types</li>
+        <li>Operators</li>
+        <li>Expressions</li>
+        <li>Functions</li>
+        
+    </ul>
+</div>
+
+
+<div class='slide'>
+<h1>Literals</h1>
+    <ul>
+        <li>A literal is an actual piece of data that is written into a piece of code<li>
+        <li>Not taken from user input, retrieved from a database or generated from other values</li>
+        <li>E.g. having the number 2 written into your code is a literal</li>
+        <li>E.g. the text "hello" written straight into your code is a literal</li>
+    </ul>
+</div>
+
+
+<div class='slide'>
+<h1>Variables / Identifiers</h1>
+    <ul>
+        <li>When you're writing any sort of algorithm, you often want to refer back to previous values</li>
+        <li>When programming an algorithm, if you want to refer back to a previous calculation, you need to either recalculate it, or store it and retrieve it</li>
+        <li>You can use an <i>identifier</i> to label that piece of information for later use</li>
+        <li>When you label an ordinary data, that label is called a <i>Variable</i>
+        <li>Identifiers in python are just words with a few rules about what you can call things</li>
+            <ul><li>We'll cover the rules later</li></ul>
+    </ul>
+    <div class='handout'>Variables and identifiers won't make much sense on their own, so we'll save the example for later....</div>
+</div>
+
+<div class='slide'>
+<h1>Data Types</h1>
+    <div class='handout'>
+        All applications, in one form or another, are about processing data
+        <ul>
+            <li>From a business application like a payroll, CRM, etc</li>
+            <li>To a computer game</li>
+        </ul>
+    </div>
+    <ul>
+        <li>Data comes in various types</li>
+        <li>What type the data is defines what we can do with it</li>
+        <li>Main data types are</li>
+            <ul>
+                <li>Numbers</li>
+                <li>Strings (text)</li>
+                <li>Sequences (covered later)</li>
+            </ul>
+        <li>There are lots of little details about how data types behave and are used, 
+        but they relate to other concepts, so they can be covered bit by bit</li>
+    </ul>
+</div>
+
+
+<div class='slide'>
+<h1>Operators</h1>
+    <ul>
+        <li>So we have some <i>variables</i> containing some data, of a particular <i>data type</i></li>
+        <li>We can use <i>operators</i> to do something with them</li>
+        <li>Operators perform an action on or with something else</li>
+        <li>A good example is normal arithmetic operators that we can use in simple maths</li>
+            <ul>
+                <li><code>+</code></li>
+                <li><code>-</code></li>
+                <li><code>*</code></li>
+                <li><code>/</code></li>
+           </ul>
+    </ul>
+</div>
+
+
+<div class='slide'>
+<h1>Operators</h1>
+    <ul>
+        <li>The most important other operator at the moment is the <i>assignment</i> operator, which allows you to assign values to variables.</li>
+        <li>Assignment operators always need to be used with a variable - the thing the result or value is being assigned to</li>
+        <li>The variable being assigned to is always on the left of the <i>expression</i> (see next slide)
+            <ul>
+                <li><code>length = 5</code></li>
+                <li><code>total = 1 + 1</code></li>
+                <li><code>subtotal = previous_total + 1</code></li>
+            </ul>
+    </ul>        
+</div>
+
+<div class='slide'>
+<h1>Expressions</h1>
+    <ul>
+        <li><i>Expressions</i> are the programming equivalent of sentences</li>
+        <li>They're made up of different combinations of the basic building blocks of programming</li>
+        <li>When you start putting together elements like variables, operators and literals, statements are formed</li>
+        <li>Expressions normally have a result</li>
+    </ul>
+</div>
+
+
+
+<div class='slide'>
+    <br /> <br />
+    Have a go at <a target='new' href='essentials-exercises.html#idelements'>this exercise</a> (You should have a printed copy)
+</div>
+
+
+<div class='slide'>
+<h1>Functions</h1>
+    <ul>
+        <li>Units of code that carry out a task</li>
+        <li>Can take input</li>
+            <ul><li><code>parameters</code> (or <code>arguments</code>)</li></ul>
+        <li>Which is processed in some way</li>    
+        <li>And give back output</li>
+            <ul><li><code>return</code> values</li></ul>
+        <li>This is very useful for a piece of code that you want to use a lot, especially when it is used in many different places</li>
+        <li>Python has lots of useful functions included in the language, that you can make immediate use of</li>
+        <li>Examples of function calls
+            <ul>
+                <li><code>result = function_name(input)</code></li>
+                <li><code>total = sum(1,2,3)</code></li>
+                <li><code>display(some_text)</code></li>
+            </ul>
+        </li>
+    </ul>
+</div>
+
+</div>
+
+<p>
+    <a href="http://validator.w3.org/check?uri=referer"><img
+        src="http://www.w3.org/Icons/valid-xhtml10"
+        alt="Valid XHTML 1.0!" height="31" width="88" /></a>
+</p>
+    
+</body>
+</html>

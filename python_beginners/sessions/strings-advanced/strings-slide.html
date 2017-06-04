@@ -1,0 +1,232 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>Python for Programmers</title>
+    <meta name="version" content="S5 1.0" />
+    <link rel="stylesheet" href="../../slides-css/ui/slides.css" type="text/css" media="projection" id="slideProj" />
+    <link rel="stylesheet" href="../../slides-css/ui/opera.css" type="text/css" media="projection" id="operaFix" />
+    <link rel="stylesheet" href="../../slides-css/ui/print.css" type="text/css" media="print" id="slidePrint" />
+    <script src="../../slides-css/ui/slides.js" type="text/javascript"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+
+<body>
+<div class="layout">
+
+<div id="currentSlide"></div>
+    <div id="header"></div>
+    <div id="footer">
+    <h1>Clockwork Software Systems</h1>
+    <h2>Python For New Programmers</h2>
+    <div id="controls"></div>
+    </div>
+</div>
+
+
+<div class="presentation">
+
+<div class='slide'>
+    <h1></h1>
+    <blockquote>
+        <br /><br />
+        <h2>Python For New Programmers</h2>
+        <h1>Strings</h1>
+    </blockquote>
+    </div>
+
+<div class="slide">
+    <h1>What are Strings</h1>
+    <ul>
+        <li>Sequence of characters</li>
+        <li>You can see how many by using the len function</li>
+        <code>len(mystring)</code> 
+        <li>Denoted by enclosing in pairs of:</li>
+        <code>&quot;</code> or <code>'</code> or <code>"""</code> or <code>'''</code>
+        <li><code>"This is a string"</code></li>
+        <li><code>'This is also a string'</code></li>
+        <li><code>"""So am I, the "Great String""""</code></li>
+        <li><code>'''And me, too!'''</code></li>
+        <li><a target='new' href='py-html/01-string_basics.htm'>Example</a></li>
+    </ul>
+</div>
+
+<div class='slide'>
+    <h1>Concatenating Strings</h1>
+    <ul>
+       <li>String literals placed beside each other will automatically be concatenated</li>
+        <code> mystring = "This is a string" " in two bits"</code>
+       <li>Also, you can use the <code>+</code> operator to concatenate string variables, literals and combinations of the two</li>
+       <ul><li>Though this is inefficient, use 'join' method.</li></ul>
+       <li><a target='new' href='py-html/01a-string_concatenation.htm'>Example</a> </li>
+    </ul>
+</div>
+
+<div class='slide'>
+    <h1>Strings Within Strings and Escape Characters</h1>
+    <ul>
+        <li>The <code>\</code> character can be used to either remove special meanings from characters, or to give them a special meaning</li>
+        <li>If you want to use a <code>'</code> inside a string quoted with that character, you can escape it (same with double quotes)</li>
+        <li>Using them with characters such as n and t, give a special meaning  </li>
+        <li><code>\t</code>  inserts a tab into the string when printed</li>
+        <li><code>\n</code>  gives a newline when printed</li>
+        <li><a target='new' href='py-html/01b-escape-chars.htm'>Example</a>   </li>
+    </ul>
+</div>
+
+<div class='slide'>
+    <h1>Multi-line Strings</h1>
+    <ul>
+        <li>Using triple quotes (single or double), a string can spread over more than one line</li>
+        <li>It keeps its spacing within the string</li>
+        <li>This sort of multiline string has a special meaning when used in particular places in your code - as Python docstrings</li>
+            <ul><li>We'll talk about this later </li></ul>
+        <li>You can also use escape characters to give your string the same sort of formatting </li>
+        <li><a target='new' href='py-html/01c-multiline-strings.htm'>Example</a></li>
+    </ul>
+</div>
+
+<div class='slide'>
+    <h1>String Repeating</h1>
+    <br />
+    <ul>
+        <li>The <code>*</code> operator can be used to repeat a sequence </li>
+        <li>We can use it on strings, because strings are sequences.</li>
+        <li><a target='new' href='py-html/01d-string-repeating.htm'>Example</a></li>
+    </ul>
+</div>
+
+<div class='slide'>
+    <h1>Accessing Strings by Index</h1>
+    <ul>
+       <li>Each character in the string can be accessed individually according to their index in the string sequence  </li>
+       <li>Index can be given from the start or end of the string</li>
+       <li>Positive numbers are from the start of the string</li>
+       <li>Negative numbers are the position from the end of the string</li>
+       <li>Note that you can't change individual characters, as a string is <i>immutable</i></li>
+       <li><a target='new' href='py-html/01e-string-char-access.htm'>Example</a></li>
+    </ul>
+</div>
+
+<div class='slide'>
+    <h1>String Slicing</h1>
+    <ul>
+        <li>As well as accessing individual characters, you can access groups of them - a slice of a sequence</li>
+        <li>The syntax for accessing a slice is: <code>mystring[start:end]</code></li>
+        <li>Where start or end can be blank, indicating a default value of the first or last index</li>
+        <li><a target='new' href='py-html/01f-string-slicing.htm'>Example</a></li>
+    </ul>
+</div>
+
+<div class='slide'>
+    <h1>String Formatting</h1>
+    <ul>
+        <li>For display, you often want to include the values of calculations or variables in a string</li>
+        <li>Concatenating strings around these variables can get messy</li>
+        <li>Python provides C-style string formatting for this </li>
+        <li><code>%</code> operator is used inside strings as a placeholder for where the values will be inserted</li>
+        <li><code>%</code> used after the string to denote the items that will fill those placeholders</li>
+    </ul>
+</div>
+
+<div class='slide'>
+    <h1>Formatting Characters</h1>
+    <ul>
+        <li>Characters are used with the <code>%</code> in the string to denote the sort of argument that is expected</li>
+        <li>A full list can be found at <a target='new' href='http://docs.python.org/lib/typesseq-strings.html'>http://docs.python.org/lib/typesseq-strings.html</a></li>
+        <li>The most common are:</li>
+        <ul>
+            <li><b>s</b> - denoting a string</li>
+            <li><b>d</b> - denoting an int</li>
+            <li><b>f</b> - denoting a float</li>
+            <li><b>r</b> - denoting a representation of an object</li>
+        </ul>
+    </ul>
+</div>
+
+<div class='slide'>
+    <h1>Format String arguments</h1>
+    <ul>
+        <li>A single format string argument can be given as any single, non-tuple object</li>
+        <li>Multiple arguments must be given as a tuple with exactly the right number of items, (or as a dictionary for named arguments)</li>
+        <li>Each % within the string expects a corresponding argument after the string</li>
+        <li><a target='new' href='py-html/02-string-formatting.htm'>Example</a></li>
+    </ul>
+</div>
+
+<div class='slide'>
+    <h1>More String Formatting</h1>
+    <ul>
+        <li>With number formatting characters, you can provide extra options, between the % and the character to affect how the values are displayed</li>
+        <ul><li>Again these are detailed in the Python documentation </li></ul>
+        <li>In the case of numbers, especially floating point ones, you often want to display them to a certain level of precision.  </li>
+        <li>You can alter the displayed precision of numbers by using a <code>.</code> followed by the required precision</li>
+        <li><a target='new' href='py-html/02a-string-formatting-numbers.htm'>Example</a></li>
+    </ul>
+</div>
+
+<div class='slide'>
+    <h1>String Operations</h1>
+    <p>
+    Various methods are provided with String objects that make working with them much simpler. Some common ones are:
+    </p>
+    <ul>
+        <li><b>replace</b> - returns a new string with any occurrences of the first argument replaced with the second argument </li>
+        <li><b>split</b> - returns a list of strings.  The splits are made on a space character by default, or by one supplied as an argument</li>
+        <li><b>upper</b> - returns an upper case version of the string</li>
+        <li><b>lower</b> - returns a lower case version of the string</li>
+        <li><a target='new' href='py-html/03-string-operations.htm'>Example</a></li>
+    </ul>
+</div>
+
+<div class='slide'>
+    <h1>Using if and in to Check String Contents</h1>
+    <ul>
+        <li>As with tuples, the <code>in</code> keyword can be used to check whether a string contains a sub-string</li>
+        <li>Strings have different matching behaviour to tuples when the <code>in</code> keyword is used</li>
+        <li>You can match single character strings or larger substrings (but not lists of characters)</li>
+        <li>Combined with an <code>if</code> statement, checks can be made against string contents and appropriate actions taken</li>
+        <li><a target='new' href='py-html/04-if_in.htm'>Example</a></li>
+    </ul>
+</div>
+
+<div class='slide'>
+    <h1>Iterating over String Characters </h1>
+    <br />
+    <ul>
+       <li>As with tuples, we can also use <code>for</code> to iterate over the contents of a string</li>
+       <li>As a string is a sequence of characters, each character is the individual 'part' for iteration over</li>
+       <li>If using this with print, each statement will, by default, be printed on a different line</li>
+       <li><a target='new' href='py-html/05-string-for.htm'>Example</a></li>
+    </ul>
+</div>
+
+<div class='slide'>
+    <h1>String Formatting - Operator Precedence</h1>
+    <ul>
+    <!-- XXX this is somewhere approaching right but needs checking-->
+        <li>If you use a complex expression with a format string, you may get strange behaviour</li>
+        <li>The operator for the string formatting, '%', is also the modulus operator.</li>
+        <li>It has the same precedence as '*' and '/', and greater precedence than '+'</li>
+        <li>Try:
+            <ul>
+                <li><code>'%i' % 2*3</code></li>
+                <li><code>'%i' % 2+3</code></li>
+                <li><code>'Hello, %s, how are you?' % 'John '+' Smith'</code></li>
+            </ul>
+        </li>
+        <li>Then try using brackets to change the precedence.</li>
+        <li><a target='new' href='py-html/06-string-formatting-operator-precedence.htm'>Example</a></li>
+    </ul>
+</div>
+
+</div>
+<p>
+    <a href="http://validator.w3.org/check?uri=referer"><img
+        src="http://www.w3.org/Icons/valid-xhtml10"
+        alt="Valid XHTML 1.0!" height="31" width="88" /></a>
+</p>
+    
+</body>
+</html>

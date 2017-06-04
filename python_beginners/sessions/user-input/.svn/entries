@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="563"
+   name=""
+   committed-date="2005-08-22T13:23:27.757261Z"
+   url="http://localhost:8080/svn/training/python_beginners/sessions/user-input"
+   last-author="kat"
+   kind="dir"
+   uuid="b22b469e-84d2-0310-a31a-e481f3221026"
+   revision="567"/>
+<entry
+   committed-rev="559"
+   name="user-input-exercises.html"
+   text-time="2005-08-24T09:30:04.000000Z"
+   committed-date="2005-08-22T11:02:45.871753Z"
+   checksum="d1a874c7c13344f686b66a1270ce7a11"
+   last-author="kat"
+   kind="file"
+   prop-time="2005-08-24T09:30:05.000000Z"/>
+<entry
+   name="exercise-answers"
+   kind="dir"/>
+<entry
+   committed-rev="563"
+   name="reading-from-user.html"
+   text-time="2005-08-24T09:30:04.000000Z"
+   committed-date="2005-08-22T13:23:27.757261Z"
+   checksum="c9e29adfc073739076cba65cd0016428"
+   last-author="kat"
+   kind="file"
+   prop-time="2005-08-24T09:30:05.000000Z"/>
+<entry
+   name="examples"
+   kind="dir"/>
+</wc-entries>

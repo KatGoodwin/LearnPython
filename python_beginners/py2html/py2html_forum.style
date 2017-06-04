@@ -1,0 +1,14 @@
+# This style emulates the forum code highlighting
+# I found in the Dev Shed forums
+# The pre style gives a nice scrollable block
+
+
+block | <pre  style="background: #EFEFEF;color: #000000; font-weight: normal; font-style: normal; font-variant: normal;margin:0px; padding:6px; border:1px inset; width:640px; height:626px; overflow:auto"> | </pre>
+key | |  
+num | | 
+str | <font color="green"> | </font>
+op  | | 
+com | <font color="red"> | </font>
+res | <font color="orange"> | </font>
+def | <font color="blue"> | </font>
+brk |  | 

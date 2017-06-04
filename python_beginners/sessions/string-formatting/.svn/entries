@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="557"
+   name=""
+   committed-date="2005-08-22T10:21:29.952032Z"
+   url="http://localhost:8080/svn/training/python_beginners/sessions/string-formatting"
+   last-author="kat"
+   kind="dir"
+   uuid="b22b469e-84d2-0310-a31a-e481f3221026"
+   revision="567"/>
+<entry
+   committed-rev="557"
+   name="formatting2.html"
+   text-time="2005-08-24T09:30:07.000000Z"
+   committed-date="2005-08-22T10:21:29.952032Z"
+   checksum="3f0d5b5c0f685305bd1417eed6faeb4c"
+   last-author="kat"
+   kind="file"
+   prop-time="2005-08-24T09:30:08.000000Z"/>
+<entry
+   committed-rev="557"
+   name="formatting-1-exercises.html"
+   text-time="2005-08-24T09:30:07.000000Z"
+   committed-date="2005-08-22T10:21:29.952032Z"
+   checksum="978c855cdf186df0b827f4eaa191a051"
+   last-author="kat"
+   kind="file"
+   prop-time="2005-08-24T09:30:08.000000Z"/>
+<entry
+   name="exercise-answers"
+   kind="dir"/>
+<entry
+   name="examples"
+   kind="dir"/>
+<entry
+   committed-rev="557"
+   name="formatting-slides.html"
+   text-time="2005-08-24T09:30:07.000000Z"
+   committed-date="2005-08-22T10:21:29.952032Z"
+   checksum="e42ff94af1a2d53037100a739df5cc53"
+   last-author="kat"
+   kind="file"
+   prop-time="2005-08-24T09:30:08.000000Z"/>
+</wc-entries>

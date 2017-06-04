@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="533"
+   name=""
+   committed-date="2005-08-12T08:00:33.192440Z"
+   url="http://localhost:8080/svn/training/python_beginners/sessions/string-formatting/examples"
+   last-author="kat"
+   kind="dir"
+   uuid="b22b469e-84d2-0310-a31a-e481f3221026"
+   revision="567"/>
+<entry
+   committed-rev="533"
+   name="opt-string-formatting-alignment.py"
+   text-time="2005-08-24T09:30:06.000000Z"
+   committed-date="2005-08-12T08:00:33.192440Z"
+   checksum="45914de46f35d75557ac10f7ef164da8"
+   last-author="kat"
+   kind="file"
+   prop-time="2005-08-24T09:30:08.000000Z"/>
+<entry
+   committed-rev="533"
+   name="string-formatting.py"
+   text-time="2005-08-24T09:30:07.000000Z"
+   committed-date="2005-08-12T08:00:33.192440Z"
+   checksum="6ea91bc6bb3e7bcc2ae0f6f3d1186bd3"
+   last-author="kat"
+   kind="file"
+   prop-time="2005-08-24T09:30:08.000000Z"/>
+<entry
+   committed-rev="533"
+   name="string-formatting-operator-precedence.py"
+   text-time="2005-08-24T09:30:07.000000Z"
+   committed-date="2005-08-12T08:00:33.192440Z"
+   checksum="f0567e968b87907b063d07200d31c19f"
+   last-author="kat"
+   kind="file"
+   prop-time="2005-08-24T09:30:08.000000Z"/>
+<entry
+   committed-rev="533"
+   name="tuple-formatting-gotcha.py"
+   text-time="2005-08-24T09:30:07.000000Z"
+   committed-date="2005-08-12T08:00:33.192440Z"
+   checksum="910a4c365ff608d63a0bd875e4896592"
+   last-author="kat"
+   kind="file"
+   prop-time="2005-08-24T09:30:08.000000Z"/>
+<entry
+   committed-rev="533"
+   name="string-formatting-numbers.py"
+   text-time="2005-08-24T09:30:07.000000Z"
+   committed-date="2005-08-12T08:00:33.192440Z"
+   checksum="c20852bcb7fe68f3557dc51191ec2c3c"
+   last-author="kat"
+   kind="file"
+   prop-time="2005-08-24T09:30:08.000000Z"/>
+</wc-entries>

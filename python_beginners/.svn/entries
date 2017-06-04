@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="567"
+   name=""
+   committed-date="2005-08-24T10:58:45.445134Z"
+   url="http://localhost:8080/svn/training/python_beginners"
+   last-author="kat"
+   kind="dir"
+   uuid="b22b469e-84d2-0310-a31a-e481f3221026"
+   revision="567"/>
+<entry
+   name="py2html"
+   kind="dir"/>
+<entry
+   name="sessions"
+   kind="dir"/>
+<entry
+   name="slides-css"
+   kind="dir"/>
+<entry
+   committed-rev="547"
+   name="outline.txt"
+   text-time="2005-08-24T09:30:09.000000Z"
+   committed-date="2005-08-17T09:09:39.444906Z"
+   checksum="3be84763e51be5cb45b19bd9864dd34a"
+   last-author="kat"
+   kind="file"
+   prop-time="2005-08-24T09:30:10.000000Z"/>
+</wc-entries>

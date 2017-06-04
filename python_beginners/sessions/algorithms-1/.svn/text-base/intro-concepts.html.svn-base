@@ -1,0 +1,130 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>Python for New Programmers</title>
+    <meta name="version" content="S5 1.0" />
+    <link rel="stylesheet" href="../../slides-css/ui/slides.css" type="text/css" media="projection" id="slideProj" />
+    <link rel="stylesheet" href="../../slides-css/ui/opera.css" type="text/css" media="projection" id="operaFix" />
+    <link rel="stylesheet" href="../../slides-css/ui/print.css" type="text/css" media="print" id="slidePrint" />
+    <script src="../../slides-css/ui/slides.js" type="text/javascript"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+
+<body>
+<div class="layout">
+
+<div id="currentSlide"></div>
+    <div id="header"></div>
+    <div id="footer">
+    <h1>Clockwork Software Systems</h1>
+    <h2>Python For New Programmers</h2>
+    <div id="controls"></div>
+    </div>
+</div>
+
+
+<div class="presentation">
+
+<div class='slide'>
+    <h1></h1>
+    <blockquote>
+        <br /><br />
+        <h2>Python For New Programmers</h2>
+        <h1>Getting Started with the Python interpreter</h1>
+    </blockquote>
+</div>
+
+<!-- XXX should there be a "getting used to your environment" section or should it be seperate slide set that can be changed according to setup-->
+
+
+
+<div class="slide">
+    <h1>The Interactive Python Interpreter</h1>
+    <ul>
+        <li>Lets you type code straight in</li>
+        <li>Code executed immediately</li>
+            <ul><li>Each line is run as soon as you press enter</li></ul>
+        <li>Type 'python' in your shell</li>
+        <li>Press Ctrl+D to exit</li>
+    </ul>
+</div>
+
+<div class='slide'>
+    <h1>Simple Python Sums</h1>
+    <ul>
+        <li>You can use they python interpreter like a simple calculator</li>
+        <li>Simply type in your sum and press enter</li>
+        <li>Work out the answers to the following sums:</li>
+        <li>Exercise 1</li>
+    </ul>
+</div>
+
+<div class='slide'>
+    <h1>More Complicated Calculations</h1>
+    <ul>
+        <li>What if you want to do your calculation in several steps?</li>
+        <li>You might want to store an intermediate value to use later</li>
+        <li>In this case, you want to use <code>variables</code> to store a value in</li>
+        <li>We're going to write a simple program, in the python interpreter, that lets us keep a running total of everything we spend in a day</li>
+        <li>We can build on this as we learn more things</li>
+    </ul>
+    <div class='handout'>Now try to write an algorithm for the expenses calculator without looking at the next slide!</div>
+</div>
+
+<div class='slide'>
+    <h1>Expenses Tracker Algorithm</h1>
+    <ol>
+        <li>Create a variable to store your subtotal in</li>
+        <li>For each item:
+            <ul>
+                <li>Add the total to the subtotal</li>
+                <li>Print the current subtotal</li>
+            </ul></li>
+       <li>Print the final total</li> 
+    </ol>
+    Don't worry about trying to automate the repetition - repeat the steps for each item manually
+</div>
+
+<div class='slide'>
+    <h1>To be able to write your expenses tracker ...</h1>
+    You need to be able to:
+    <ul>
+        <li>Store a value</li>
+            <ul><li>Done using <code>=</code> </li>
+            <li>Called the <i>assignment operator</i></li>
+            <li>Setup the subtotal variable by storing 0 in it</li></ul>
+        <li>Add two values together</li>
+            <ul><li>Done just like normal maths, using +</li>
+            <li>We can use the subtotal variable as one side of the expression instead of a value</li>
+            <li>We then need to store the result of this calculation, </li></ul>
+        <li>Print</li>
+            <ul><li>Simply use the keyword <code>print</code> followed by what you want to print</li></ul>
+    </ul>
+    <a target='new' href='pyhtml/expenses.html'>Example</a>
+    <br />Now try the following <a href='...'>exercise</a>
+</div>
+
+
+
+<!-- do these later when they've got examples of what they are to refer back to -->
+
+<div class='slide'>
+<h1>What is an Expression?</h1>
+</div>
+
+<div class='slide'>
+<h1>Operators</h1>
+</div>
+
+</div>
+
+<p>
+    <a href="http://validator.w3.org/check?uri=referer"><img
+        src="http://www.w3.org/Icons/valid-xhtml10"
+        alt="Valid XHTML 1.0!" height="31" width="88" /></a>
+</p>
+    
+</body>
+</html>

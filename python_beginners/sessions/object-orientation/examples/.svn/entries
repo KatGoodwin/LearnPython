@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="564"
+   name=""
+   committed-date="2005-08-22T15:04:07.696983Z"
+   url="http://localhost:8080/svn/training/python_beginners/sessions/object-orientation/examples"
+   last-author="kat"
+   kind="dir"
+   uuid="b22b469e-84d2-0310-a31a-e481f3221026"
+   revision="567"/>
+<entry
+   committed-rev="564"
+   name="Csv.py"
+   text-time="2005-08-24T09:29:56.000000Z"
+   committed-date="2005-08-22T15:04:07.696983Z"
+   checksum="bd9e19ea7ee8ce251799f4f38907418c"
+   last-author="kat"
+   kind="file"
+   prop-time="2005-08-24T09:29:57.000000Z"/>
+<entry
+   committed-rev="564"
+   name="cartoons.csv"
+   text-time="2005-08-24T09:29:56.000000Z"
+   committed-date="2005-08-22T15:04:07.696983Z"
+   checksum="d38e86979f0ed4129b47be055867d6f5"
+   last-author="kat"
+   kind="file"
+   prop-time="2005-08-24T09:29:57.000000Z"/>
+<entry
+   committed-rev="564"
+   name="User.py"
+   text-time="2005-08-24T09:29:56.000000Z"
+   committed-date="2005-08-22T15:04:07.696983Z"
+   checksum="c4b03e5fe559ad5737420479c61fe621"
+   last-author="kat"
+   kind="file"
+   prop-time="2005-08-24T09:29:57.000000Z"/>
+<entry
+   committed-rev="564"
+   name="actors.csv"
+   text-time="2005-08-24T09:29:56.000000Z"
+   committed-date="2005-08-22T15:04:07.696983Z"
+   checksum="e7e200736f4c14380de7b962fb5baf9c"
+   last-author="kat"
+   kind="file"
+   prop-time="2005-08-24T09:29:57.000000Z"/>
+<entry
+   committed-rev="564"
+   name="class-instance-eg.py"
+   text-time="2005-08-24T09:29:56.000000Z"
+   committed-date="2005-08-22T15:04:07.696983Z"
+   checksum="a2b50eb1a225ab9e63317efcded7d191"
+   last-author="kat"
+   kind="file"
+   prop-time="2005-08-24T09:29:57.000000Z"/>
+<entry
+   committed-rev="564"
+   name="MyFirstClass.py"
+   text-time="2005-08-24T09:29:56.000000Z"
+   committed-date="2005-08-22T15:04:07.696983Z"
+   checksum="969055e329ac80cd766ec0edb06257fa"
+   last-author="kat"
+   kind="file"
+   prop-time="2005-08-24T09:29:57.000000Z"/>
+<entry
+   committed-rev="564"
+   name="Person.py"
+   text-time="2005-08-24T09:29:56.000000Z"
+   committed-date="2005-08-22T15:04:07.696983Z"
+   checksum="6bbc0ccb9ee0bf5baebfe62dcc6a40e6"
+   last-author="kat"
+   kind="file"
+   prop-time="2005-08-24T09:29:57.000000Z"/>
+</wc-entries>

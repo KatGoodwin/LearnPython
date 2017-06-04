@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="541"
+   name=""
+   committed-date="2005-08-15T11:44:05.217986Z"
+   url="http://localhost:8080/svn/training/python_beginners/sessions/strings-advanced"
+   last-author="kat"
+   kind="dir"
+   uuid="b22b469e-84d2-0310-a31a-e481f3221026"
+   revision="567"/>
+<entry
+   committed-rev="541"
+   name="strings-slide.html"
+   text-time="2005-08-24T09:29:54.000000Z"
+   committed-date="2005-08-15T11:44:05.217986Z"
+   checksum="b29046adcbe875fe5db45fabe3751cb5"
+   last-author="kat"
+   kind="file"
+   prop-time="2005-08-24T09:29:55.000000Z"/>
+<entry
+   name="examples"
+   kind="dir"/>
+</wc-entries>

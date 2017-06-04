@@ -1,0 +1,349 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>Python for New Programmers</title>
+    <meta name="version" content="S5 1.0" />
+    <link rel="stylesheet" href="../../slides-css/ui/slides.css" type="text/css" media="projection" id="slideProj" />
+    <link rel="stylesheet" href="../../slides-css/ui/opera.css" type="text/css" media="projection" id="operaFix" />
+    <link rel="stylesheet" href="../../slides-css/ui/print.css" type="text/css" media="print" id="slidePrint" />
+    <script src="../../slides-css/ui/slides.js" type="text/javascript"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+
+<body>
+<div class="layout">
+
+<div id="currentSlide"></div>
+    <div id="header"></div>
+    <div id="footer">
+    <h1>Clockwork Software Systems</h1>
+    <h2>Python For New Programmers</h2>
+    <div id="controls"></div>
+    </div>
+</div>
+
+
+<div class="presentation">
+
+<div class='slide'>
+    <h1></h1>
+    <blockquote>
+        <br /><br />
+        <h2>Python For New Programmers</h2>
+        <h1>Getting Started - Some Vital Concepts</h1>
+    </blockquote>
+</div>
+
+
+<div class='slide'>
+    <h1>Learning to Program</h1>
+    <br />
+    <ul>
+        <li>Start with an overview of algorithms</li>
+        <li>Then go back to the bottom and work up</li>
+        <div class='handout'>
+            Start with the very basic concepts, concentrate on getting them right - if you understand the rules, its much easier to figure out the more complex things later on - give ourselves the tools that we can use to implement the algorithms we've been working on above
+        </div>
+        <li>Key concepts repeated throughout the language</li>
+        <div class='handout'>
+            The concepts that you will learn in the first couple of days will be repeated and built upon throughout the rest of the course.  It is essential that you understand the basic building blocks, as incomplete understanding can limit what you can take from the rest of the course.
+        </div>
+        <li>Things are not always as easy as they seem</li>
+        <div class='handout'>
+            While the initial theory about something may seem quite easy to understand, it is often not until you get the chance to do things - and to do them without copying code - that the complexities of the implementation hit you.  This is why we spend a long time going over concepts, and take time to revisit them as we progress.
+        </div>
+    </ul>
+</div>
+
+<div class='slide'>
+    <h1>Administration</h1>
+    <ul>
+        <li>Please ask questions</li>
+        <li>Don't be afraid to interrupt if you haven't quite got the hang of something</li>
+        <li>You'll have time to try everything out when we pause for frequent exercises</li>
+    </ul>
+</div>
+
+<div class='slide'>
+    <h1>What is programming?</h1>
+    <br />
+    <blockquote>At the basic level, Writing a set of instructions that can be executed by a computer, resulting in an action being performed.  These sets of instructions are <code>Algorithms</code></blockquote>
+    <div class='handout'>
+    In practice there are lots of different levels of this  - it might be a simple script that is just a set of instructions to carry something out, or it may be a whole collection of sets of instructions that do different things depending on user interaction.  Whatever it is, it can all be broken down into little sets of instructions that perform a task
+    </div>
+    
+</div>
+
+
+<div class='slide'>
+    <h1>Algorithms</h1>
+    <div class='handout'>We're not going to write any code before we've looked at the basic actions of producing a program that carries out a function.</div>
+    <ul>
+        <li>A set of instructions that, when executed in sequence, perform an action</li>
+        <li>We're going to start this off in plain english - no code, or even pseudocode</li>
+        <li>Start with every-day tasks and work up to programming ones</li>
+    </ul>
+</div>
+
+<div class='slide'>
+    <h1>Algorithm Design - Making a Mug of Tea</h1>
+    <ol>
+        <li>Fill kettle with water</li>
+        <li>Turn kettle on</li>
+        <li>Put teabag in mug</li>
+        <li>Pour boiling water over teabag</li>
+        <li>Brew until tea is required strength</li>
+        <li>Remove teabag</li>
+        <li>Add required extras (e.g. milk, sugar)</li>
+        <li>Stir and serve</li>
+    </ol>
+    <div class='handout'>
+    What's wrong with this algorithm?
+    <ul>
+        <li>Quite Vague ('required strength', 'extras')</li>
+        <li>Quite Restrictive (asumes you're brewing the tea in a mug and not a teapot)</li>
+        <li>But adequate with human interpretation...</li>
+        <li>Try <a href='algorithms-exercises.html#ex1'>this exercise</a></li>
+    </ul>
+    </div>
+</div>
+
+
+<div class='slide'>
+    <h1>Using a Specific Instruction Set</h1>
+    <div class='handout'>
+    With the example above, we have the whole range of the english language to play with.  
+We're hoping that our audience will understand all of our instructions, but we know that if they don't understand them precisely, they will try to interpret them - to guess what we actually mean.  
+    With a computer, we don't have that luxury, so we need to be more specific
+    </div>
+    <ol>
+        <li>To communicate with other people, we need a common language that we know </li>
+        <li>'Natural Languages' such as English do not have precise definitions</li>
+        <li>Something with an exact definition as to the meaning of each component, and how the components are built up is needed to remove any ambiguity</li>
+    </ol>
+</div>
+
+
+<div class='slide'>
+    <h1>A Direction Instruction Set</h1>
+    We are going to create a simple instruction set that we can use to draw patterns by following directions.
+    <ul>
+        <li>move(number of points)</li>
+            <ul><li>Any number between 1 and 29</li></ul>
+        <li>turn(direction)</li>
+            <ul><li>Left or Right</li></ul>
+        <li>set(x,y)</li>
+            <ul><li>Set the 'pointer' start point to the x,y grid position given.</li></ul>
+    </ul>
+    <div class='handout'>
+    We're going to try something to illustrate this concept.  Another simple algorithm, but with a specified instruction set, and an activity to try out.
+    </div>
+</div>
+
+<div class='slide'>
+<h1>Drawing a square</h1>
+    <ol>
+        <li>set(2,2)</li>
+        <li>move(4)</li>
+        <li>turn(left)</li>
+        <li>move(4)</li>
+        <li>turn(left)</li>
+        <li>move(4)</li>
+        <li>turn(left)</li>
+        <li>move(4)</li>
+    </ol>
+</div>
+
+<div class='slide'>
+<h1>set(2,2)</h1>
+<img src='patterns/square1.png' width='500' height='500' />
+</div>
+
+<div class='slide'>
+<h1>move(4)</h1>
+<img src='patterns/square2.png' width='500' height='500' />
+</div>
+
+<div class='slide'>
+<h1>turn(left)</h1>
+<img src='patterns/square3.png' width='500' height='500' />
+</div>
+
+<div class='slide'>
+<h1>move(4)</h1>
+<img src='patterns/square4.png' width='500' height='500' />
+</div>
+
+<div class='slide'>
+<h1>turn(left)</h1>
+<img src='patterns/square5.png' width='500' height='500' />
+</div>
+
+<div class='slide'>
+<h1>move(4)</h1>
+<img src='patterns/square6.png' width='500' height='500' />
+</div>
+
+<div class='slide'>
+<h1>turn(left)</h1>
+<img src='patterns/square7.png' width='500' height='500' />
+</div>
+
+<div class='slide'>
+<h1>move(4)</h1>
+<img src='patterns/square8.png' width='500' height='500' />
+</div>
+
+
+<div class='slide'>
+    <h1>A More complex pattern</h1>
+    <img src='patterns/multiple-squares.png' width='500' height='500' />
+    <br />
+    <ul>
+        <li><a href='patterns/square-instructions.html'>Instructions to create it</a></li>
+        <li>Try <a href='algorithms-exercises.html#ex2'>this exercise</a></li>
+    </ul>
+</div>
+
+<div class='slide'>
+    <h1>A very long winded algorithm?</h1>
+    <ul>
+        <li>Lots of instructions to do what is essentially the same thing over and over again</li>
+        <li>Repeated chunks of instructions, performed with different values</li>
+        <li>We want to repeat the bits that are the same</li>
+        <li>However we don't have enough instructions in our language for this</li>
+        <li>What do we need to add to be able to do this?</li>
+        <div class='handout'>
+            <ul>
+                <li>A mechanism for repeating thigns</li>
+                <li>A mechanism for tracking and using the numbers as they change</li>
+            </ul>
+        </div>
+    </ul>
+</div>
+
+<div class='slide'>
+    <h1>A bit of theory...</h1>
+    <ul>
+        <li><a target='new' href='../basic-concepts/loops.html'>Simple Loops and Conditions</a></li>
+    </ul>
+</div>
+
+<div class='slide'>
+    <h1>Looking for patterns in the instructions</h1>
+    <ul>
+        <li>Each square has a set, four moves and three turns</li>
+        <li>The set coordinates increment by two for each square</li>
+        <li>The length of line (move) reduces by four each time</li>
+    </ul>
+</div>
+
+<div class='slide'>
+<h1>New Instructions</h1>
+    <ul>
+        <li>Loop with while:  
+            <ul>
+                <li><code>while condition:</code></li>
+                <li>while the condition is true, do all of the code after the semicolon</li>
+                <li>As with python, we're going to use whitespace to seperate our blocks of code</li>
+            </ul>
+        </li>
+        <li>Store information in variables:  
+            <ul>
+                <li><code>variable_name = value</code></li>
+            </ul>
+        </li>
+        <li>Perform calculations with numerical operators: 
+            <ul>
+                <li><code>variable_name = 3 + 5</code></li>
+            </ul>    
+        </li>
+    </ul>
+</div>
+
+
+<div class='slide'>
+<h1>Simple Repeat</h1>
+<pre>
+square = 0
+length = 26
+start = 2
+
+while square &lt; 7 :
+    set(start, start)
+    move(length)
+    turn(left)
+    move(length)
+    turn(left)
+    move(length)
+    turn(left)
+    move(length)
+        
+    square = square +1 
+    length = length - 4
+    start = start + 2
+</pre>
+    <ul>
+        <li> Are there any limitations with this as an algorithm?</li>
+    </ul>
+    <div class='handout'>
+        <ul>
+            <li>What if you want to change the gap between the squares?</li>
+            <li>What if you want to use a bigger or smaller grid?</li>
+        </ul>    
+    </div>
+</div>
+
+
+<div class='slide'>
+    <h1>A generic algorithm for different sized grids</h1>
+    <ul>
+        <li>How do you know when to stop?</li>
+        <li>How do you calculate the changing lengths and set points?</li>
+    </ul>
+</div>
+
+<div class='slide'>
+    <h1>For any sized grid</h1>
+<pre>
+start = 2
+step = 2
+length = 30 - (2 * start)
+turns = 0
+
+while length &gt;= step:
+    set(start, startstart)
+    move(length)
+    while turns &lt; 3 :    
+        turn(left)
+        move(length)
+        turns = turns +1
+        
+    turns = 0
+    length = length - (2 * step)
+    start = start + step
+    
+</pre>
+
+<div class='slide'>
+    <h1>Now Try Another One</h1>
+    <ul>
+        <li>Algorithms <a target='new' href='algorithms-exercises.html#ex3'>Exercise 3</a></li>
+    </ul>
+</div>
+
+</div>
+
+
+</div>
+
+<p>
+    <a href="http://validator.w3.org/check?uri=referer"><img
+        src="http://www.w3.org/Icons/valid-xhtml10"
+        alt="Valid XHTML 1.0!" height="31" width="88" /></a>
+</p>
+    
+</body>
+</html>

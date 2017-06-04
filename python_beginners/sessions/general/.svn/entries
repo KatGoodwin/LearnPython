@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="544"
+   name=""
+   committed-date="2005-08-15T12:02:00.958435Z"
+   url="http://localhost:8080/svn/training/python_beginners/sessions/general"
+   last-author="kat"
+   kind="dir"
+   uuid="b22b469e-84d2-0310-a31a-e481f3221026"
+   revision="567"/>
+<entry
+   committed-rev="541"
+   name="platform.html"
+   text-time="2005-08-24T09:30:04.000000Z"
+   committed-date="2005-08-15T11:44:05.217986Z"
+   checksum="0e6086902ea4439b4e0110804d6ca74f"
+   last-author="kat"
+   kind="file"
+   prop-time="2005-08-24T09:30:06.000000Z"/>
+<entry
+   committed-rev="541"
+   name="whois-clockwork.html"
+   text-time="2005-08-24T09:30:05.000000Z"
+   committed-date="2005-08-15T11:44:05.217986Z"
+   checksum="fc08492bde42f513eff59425515c0d99"
+   last-author="kat"
+   kind="file"
+   prop-time="2005-08-24T09:30:06.000000Z"/>
+</wc-entries>

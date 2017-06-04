@@ -1,0 +1,15 @@
+# This file uses common forum highlight tags
+# It allows sample code to be colour marked for
+# insertion into a message.
+#
+
+
+block | [code] | [/code]
+key | | 
+num | | 
+str | [color="green"] | [/color]
+op  | | 
+com | [color="red"] | [/color]
+res | [color="orange"] | [/color]
+def | [color="blue"] | [/color]
+brk | | 

@@ -1,0 +1,94 @@
+<html>
+<head><title>Answers to Algorithms Exercises</title></head>
+<body>
+
+<h1>Answers to Algorithms Exercises</h1>
+
+<h3>Exercise 1</h3>
+There are lots of possible answers for this one.  An example is:
+<!-- XXX add example answer to algorithms ex1 -->
+
+
+<h3>Exercise 2</h3>
+Algorithm to draw 'swirls' pattern:
+<pre>
+    set(2,2)
+    move(14)
+    turn(left)
+    move(14)
+    turn(left)
+    move(12)
+    turn(left)
+    move(12)
+    turn(left)
+    move(10)
+    turn(left)
+    move(10)
+    turn(left)
+    move(8)
+    turn(left)
+    move(8)
+    turn(left)
+    move(6)
+    turn(left)
+    move(6)
+    turn(left)
+    move(4)
+    turn(left)
+    move(4)
+    turn(left)
+    move(2)
+    turn(left)
+    move(2)
+</pre>
+
+<h3>Exercise 3</h3>
+Algorithm to draw 'swirls' pattern using a loop
+<pre>
+length = 14
+start = 2
+
+set(start, start)
+
+while length &gt;= 2:
+    move(length)
+    turn(left)
+    move(length)
+    turn(left)
+    
+    length = length - 2
+    
+</pre>
+
+
+<h3>Exercise 3 - Extension</h3>
+Algorithm to draw 'swirls' pattern using a loop, with a varying gap between swirls
+<pre>
+length = 14
+start = 2
+step = 3
+
+set(start, start)
+
+while length &gt;= step:
+    move(length)
+    turn(left)
+    move(length)
+    turn(left)
+    
+    length = length - step
+    
+</pre>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

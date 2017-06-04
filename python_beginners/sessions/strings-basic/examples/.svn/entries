@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="532"
+   name=""
+   committed-date="2005-08-12T08:00:14.736259Z"
+   url="http://localhost:8080/svn/training/python_beginners/sessions/strings-basic/examples"
+   last-author="kat"
+   kind="dir"
+   uuid="b22b469e-84d2-0310-a31a-e481f3221026"
+   revision="567"/>
+<entry
+   committed-rev="532"
+   name="multiline-strings.py"
+   text-time="2005-08-24T09:30:03.000000Z"
+   committed-date="2005-08-12T08:00:14.736259Z"
+   checksum="fbb3062220a34fdf205e3aae36482d7d"
+   last-author="kat"
+   kind="file"
+   prop-time="2005-08-24T09:30:05.000000Z"/>
+<entry
+   committed-rev="532"
+   name="string_basics.py"
+   text-time="2005-08-24T09:30:03.000000Z"
+   committed-date="2005-08-12T08:00:14.736259Z"
+   checksum="5047d38f660d316407fd228806a93a97"
+   last-author="kat"
+   kind="file"
+   prop-time="2005-08-24T09:30:05.000000Z"/>
+<entry
+   committed-rev="532"
+   name="string_concatenation.py"
+   text-time="2005-08-24T09:30:03.000000Z"
+   committed-date="2005-08-12T08:00:14.736259Z"
+   checksum="0dc7bb8960e52dd988ca2856da49b9c3"
+   last-author="kat"
+   kind="file"
+   prop-time="2005-08-24T09:30:05.000000Z"/>
+<entry
+   committed-rev="532"
+   name="escape-chars.py"
+   text-time="2005-08-24T09:30:03.000000Z"
+   committed-date="2005-08-12T08:00:14.736259Z"
+   checksum="623c1db33b3e866dc61cc6b093989976"
+   last-author="kat"
+   kind="file"
+   prop-time="2005-08-24T09:30:05.000000Z"/>
+</wc-entries>

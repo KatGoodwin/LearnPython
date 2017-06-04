@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="567"
+   name=""
+   committed-date="2005-08-24T10:58:45.445134Z"
+   url="http://localhost:8080/svn/training/python_beginners/sessions/basic-concepts/examples"
+   last-author="kat"
+   kind="dir"
+   uuid="b22b469e-84d2-0310-a31a-e481f3221026"
+   revision="567"/>
+<entry
+   committed-rev="560"
+   name="while-loop.py"
+   text-time="2005-08-24T09:29:55.000000Z"
+   committed-date="2005-08-22T11:59:52.851575Z"
+   checksum="d5134f0113b58c1922e1f998f64b0a50"
+   last-author="kat"
+   kind="file"
+   prop-time="2005-08-24T09:29:56.000000Z"/>
+<entry
+   committed-rev="567"
+   name="if-eg.py"
+   text-time="2005-08-24T10:21:11.000000Z"
+   committed-date="2005-08-24T10:58:45.445134Z"
+   checksum="f04321b07b166bc7154a74801ba40b87"
+   last-author="kat"
+   kind="file"
+   prop-time="2005-08-24T10:38:35.000000Z"/>
+</wc-entries>

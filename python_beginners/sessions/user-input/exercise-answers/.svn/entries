@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="559"
+   name=""
+   committed-date="2005-08-22T11:02:45.871753Z"
+   url="http://localhost:8080/svn/training/python_beginners/sessions/user-input/exercise-answers"
+   last-author="kat"
+   kind="dir"
+   uuid="b22b469e-84d2-0310-a31a-e481f3221026"
+   revision="567"/>
+<entry
+   committed-rev="559"
+   name="ex1-answer.py"
+   text-time="2005-08-24T09:30:04.000000Z"
+   committed-date="2005-08-22T11:02:45.871753Z"
+   checksum="5904b6daf5b0004bb0c7b85f7dbb46b1"
+   last-author="kat"
+   kind="file"
+   prop-time="2005-08-24T09:30:05.000000Z"/>
+<entry
+   committed-rev="559"
+   name="ex2-answer.py"
+   text-time="2005-08-24T09:30:04.000000Z"
+   committed-date="2005-08-22T11:02:45.871753Z"
+   checksum="884ccbd420e492fef06ffeb1d9532eaf"
+   last-author="kat"
+   kind="file"
+   prop-time="2005-08-24T09:30:05.000000Z"/>
+<entry
+   committed-rev="559"
+   name="ex3-answer.py"
+   text-time="2005-08-24T09:30:04.000000Z"
+   committed-date="2005-08-22T11:02:45.871753Z"
+   checksum="643b92241228f02c617a5cf6b6953df9"
+   last-author="kat"
+   kind="file"
+   prop-time="2005-08-24T09:30:05.000000Z"/>
+</wc-entries>

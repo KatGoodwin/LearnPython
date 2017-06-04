@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="519"
+   name=""
+   committed-date="2005-07-07T15:02:51.022545Z"
+   url="http://localhost:8080/svn/training/python_beginners/slides-css/ui"
+   last-author="kat"
+   kind="dir"
+   uuid="b22b469e-84d2-0310-a31a-e481f3221026"
+   revision="567"/>
+<entry
+   committed-rev="519"
+   name="clock-logo-plain-small.png"
+   text-time="2005-08-24T09:30:09.000000Z"
+   committed-date="2005-07-07T15:02:51.022545Z"
+   checksum="d08df81f1263bf857f61294b3430e7bd"
+   last-author="kat"
+   kind="file"
+   prop-time="2005-08-24T09:30:09.000000Z"/>
+<entry
+   committed-rev="519"
+   name="print.css"
+   text-time="2005-08-24T09:30:09.000000Z"
+   committed-date="2005-07-07T15:02:51.022545Z"
+   checksum="420c6f4eb9b105d936be1f5440ef45ef"
+   last-author="kat"
+   kind="file"
+   prop-time="2005-08-24T09:30:09.000000Z"/>
+<entry
+   committed-rev="519"
+   name="s5-core.css"
+   text-time="2005-08-24T09:30:09.000000Z"
+   committed-date="2005-07-07T15:02:51.022545Z"
+   checksum="8b7931f3a355eddc706b4dd69540c8b6"
+   last-author="kat"
+   kind="file"
+   prop-time="2005-08-24T09:30:09.000000Z"/>
+<entry
+   committed-rev="519"
+   name="slides.css"
+   text-time="2005-08-24T09:30:09.000000Z"
+   committed-date="2005-07-07T15:02:51.022545Z"
+   checksum="92152a6f43149c0be1062178c5721877"
+   last-author="kat"
+   kind="file"
+   prop-time="2005-08-24T09:30:09.000000Z"/>
+<entry
+   committed-rev="519"
+   name="framing.css"
+   text-time="2005-08-24T09:30:09.000000Z"
+   committed-date="2005-07-07T15:02:51.022545Z"
+   checksum="fee8684febeec8785d3d3b80909577d8"
+   last-author="kat"
+   kind="file"
+   prop-time="2005-08-24T09:30:09.000000Z"/>
+<entry
+   committed-rev="519"
+   name="opera.css"
+   text-time="2005-08-24T09:30:09.000000Z"
+   committed-date="2005-07-07T15:02:51.022545Z"
+   checksum="f563e2d8f63e763c8258d8456d18223d"
+   last-author="kat"
+   kind="file"
+   prop-time="2005-08-24T09:30:09.000000Z"/>
+<entry
+   committed-rev="519"
+   name="pretty.css"
+   text-time="2005-08-24T09:30:09.000000Z"
+   committed-date="2005-07-07T15:02:51.022545Z"
+   checksum="ad73cda881c304ae5584623fa6695881"
+   last-author="kat"
+   kind="file"
+   prop-time="2005-08-24T09:30:09.000000Z"/>
+<entry
+   committed-rev="519"
+   name="slides.js"
+   text-time="2005-08-24T09:30:09.000000Z"
+   committed-date="2005-07-07T15:02:51.022545Z"
+   checksum="656fcf1c91fa81e64b58ec7dbdabe4b5"
+   last-author="kat"
+   kind="file"
+   prop-time="2005-08-24T09:30:09.000000Z"/>
+</wc-entries>

@@ -1,0 +1,81 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1 (Latin-1)" >
+<title>01-string_basics.py</title>
+<style type="text/css">
+    h1 {    color: green;
+            position: center;
+        }
+    .python_code {  font-family: monospace;
+                font-size: 10pt;
+                }
+    .py_key {color: black;}
+    .py_num color: black;{}
+    .py_str { color: #00AA00;}
+    .py_op {color: black; }
+    .py_com { color: red;}
+    .py_res { color: #FF7700;}
+    .py_def { color: blue;}
+    .py_brk { color: black;}
+</style>
+</head>
+<body>
+<h1>#### Source code for 01-string_basics.py ####</h1>
+<hr>
+<pre class="python_code" id="pycode"><span class="py_com">#!/usr/bin/env python
+</span>
+<span class="py_key">string</span><span class="py_op"> = </span><span class="py_str">"I am a string"</span>
+<span class="py_res">print</span><span class="py_key"> string</span>
+
+<span class="py_key">newstring</span><span class="py_op"> = </span><span class="py_str">"I am a "</span><span class="py_str">"concatenated string"</span>
+<span class="py_res">print</span><span class="py_key"> newstring</span>
+
+<span class="py_key">concat</span><span class="py_op"> = </span><span class="py_str">"I am another "</span><span class="py_op">+</span><span class="py_str">"concatenated string"</span>
+<span class="py_res">print</span><span class="py_key"> concat</span>
+
+<span class="py_res">print</span><span class="py_str"> "I'm a simple test"</span>
+<span class="py_res">print</span><span class="py_str"> 'Bob\'s tail wags.'</span>
+
+<span class="py_key">spam</span><span class="py_op"> = </span><span class="py_str">" spam"</span>
+<span class="py_res">print</span><span class="py_key"> spam</span><span class="py_op">*</span><span class="py_num">4</span><span class="py_op">+</span><span class="py_str">","</span><span class="py_op">+</span><span class="py_key">spam</span><span class="py_op">*</span><span class="py_num">4</span>
+
+<span class="py_res">print</span><span class="py_str"> """this is a multiline string...
+
+which needs to have three opening and closing double quotes
+
+which ends here"""</span>
+
+<span class="py_com">#to display in the same way using formatting characters:
+</span><span class="py_res">print</span><span class="py_str"> "This is also a string that will be displayed over more than one line\n\nAlthough we're only typing it on one\n\nBut this is rather more messy as its a bit of a long line"</span>
+
+<span class="py_com"># strings are an immutable character list, so we can access them using
+</span><span class="py_com"># array like syntax [ ]
+</span>
+<span class="py_res">print</span><span class="py_str"> "Our string is : "</span><span class="py_op">+</span><span class="py_key">string</span>
+
+<span class="py_com">#You can see how long a string(or any list) is by using the len() function
+</span><span class="py_res">print</span><span class="py_str"> "The string is "</span><span class="py_op">+</span><span class="py_key">str</span><span class="py_brk">(</span><span class="py_key">len</span><span class="py_brk">(</span><span class="py_key">string</span><span class="py_brk">)</span><span class="py_brk">)</span><span class="py_op">+</span><span class="py_str">" characters long"</span>
+
+<span class="py_res">print</span><span class="py_str"> "The fifth character is : "</span><span class="py_op">+</span><span class="py_key">string</span><span class="py_brk">[</span><span class="py_num">5</span><span class="py_brk">]</span>
+<span class="py_res">print</span><span class="py_str"> "The second to last character is : "</span><span class="py_op">+</span><span class="py_key">string</span><span class="py_brk">[</span><span class="py_op">-</span><span class="py_num">2</span><span class="py_brk">]</span>
+<span class="py_com"># This fails! (hence immutable)
+</span><span class="py_com">#string[5] = "A"
+</span>
+
+<span class="py_com"># We can also access segments of a list, e.g.
+</span><span class="py_res">print</span><span class="py_str"> "The first 5 characters are : "</span><span class="py_op">+</span><span class="py_key">string</span><span class="py_brk">[</span><span class="py_op">: </span><span class="py_num">5</span><span class="py_brk">]</span>
+<span class="py_res">print</span><span class="py_str"> "The last 5 characters are : "</span><span class="py_op">+</span><span class="py_key">string</span><span class="py_brk">[</span><span class="py_op">-</span><span class="py_num">5</span><span class="py_op">: </span><span class="py_brk">]</span>
+<span class="py_res">print</span><span class="py_str"> "All but the last 5 characters are : "</span><span class="py_op">+</span><span class="py_key">string</span><span class="py_brk">[</span><span class="py_op">: </span><span class="py_op">-</span><span class="py_num">5</span><span class="py_brk">]</span>
+<span class="py_res">print</span><span class="py_str"> "Some characters from the middle are : "</span><span class="py_op">+</span><span class="py_key">string</span><span class="py_brk">[</span><span class="py_num">6</span><span class="py_op">: </span><span class="py_num">9</span><span class="py_brk">]</span>
+
+</pre>
+<hr>
+[Created with py2html Ver:0.62]
+<p>
+      <a href="http://validator.w3.org/check/referer"><img border="0"
+          src="http://www.w3.org/Icons/valid-html401"
+          alt="Valid HTML 4.01!" height="31" width="88"></a>
+</p></body>
+</html>

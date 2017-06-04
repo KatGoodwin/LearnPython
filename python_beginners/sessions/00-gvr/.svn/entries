@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="528"
+   name=""
+   committed-date="2005-08-12T07:24:47.384473Z"
+   url="http://localhost:8080/svn/training/python_beginners/sessions/00-gvr"
+   last-author="kat"
+   kind="dir"
+   uuid="b22b469e-84d2-0310-a31a-e481f3221026"
+   revision="567"/>
+<entry
+   committed-rev="528"
+   name="gvr-intro.html"
+   text-time="2005-08-24T09:30:04.000000Z"
+   committed-date="2005-08-12T07:24:47.384473Z"
+   checksum="75d54a1b70ee6422b6742d07adc1f84c"
+   last-author="kat"
+   kind="file"
+   prop-time="2005-08-24T09:30:06.000000Z"/>
+</wc-entries>

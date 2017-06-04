@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="533"
+   name=""
+   committed-date="2005-08-12T08:00:33.192440Z"
+   url="http://localhost:8080/svn/training/python_beginners/sessions/strings-advanced/examples"
+   last-author="kat"
+   kind="dir"
+   uuid="b22b469e-84d2-0310-a31a-e481f3221026"
+   revision="567"/>
+<entry
+   committed-rev="533"
+   name="string-for.py"
+   text-time="2005-08-24T09:29:54.000000Z"
+   committed-date="2005-08-12T08:00:33.192440Z"
+   checksum="da1721491f15bf06a6be97052d7486d1"
+   last-author="kat"
+   kind="file"
+   prop-time="2005-08-24T09:29:55.000000Z"/>
+<entry
+   committed-rev="533"
+   name="string-slicing.py"
+   text-time="2005-08-24T09:29:54.000000Z"
+   committed-date="2005-08-12T08:00:33.192440Z"
+   checksum="078248193931a742048cbc309bbcf58c"
+   last-author="kat"
+   kind="file"
+   prop-time="2005-08-24T09:29:55.000000Z"/>
+<entry
+   committed-rev="533"
+   name="string-char-access.py"
+   text-time="2005-08-24T09:29:54.000000Z"
+   committed-date="2005-08-12T08:00:33.192440Z"
+   checksum="636968fa273fbbe430cc8e21bef55cde"
+   last-author="kat"
+   kind="file"
+   prop-time="2005-08-24T09:29:55.000000Z"/>
+<entry
+   committed-rev="533"
+   name="string-repeating.py"
+   text-time="2005-08-24T09:29:54.000000Z"
+   committed-date="2005-08-12T08:00:33.192440Z"
+   checksum="288073dd5525d9f12fe7ea1887bd8ae3"
+   last-author="kat"
+   kind="file"
+   prop-time="2005-08-24T09:29:55.000000Z"/>
+<entry
+   committed-rev="533"
+   name="if_in.py"
+   text-time="2005-08-24T09:29:54.000000Z"
+   committed-date="2005-08-12T08:00:33.192440Z"
+   checksum="f064a641613a7f70c55756a6622bb5b7"
+   last-author="kat"
+   kind="file"
+   prop-time="2005-08-24T09:29:55.000000Z"/>
+<entry
+   committed-rev="533"
+   name="string-operations.py"
+   text-time="2005-08-24T09:29:54.000000Z"
+   committed-date="2005-08-12T08:00:33.192440Z"
+   checksum="5855f3bae3898f8154970dd936508de6"
+   last-author="kat"
+   kind="file"
+   prop-time="2005-08-24T09:29:55.000000Z"/>
+</wc-entries>

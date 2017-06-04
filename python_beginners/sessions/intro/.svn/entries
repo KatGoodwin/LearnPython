@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="552"
+   name=""
+   committed-date="2005-08-19T14:46:58.874536Z"
+   url="http://localhost:8080/svn/training/python_beginners/sessions/intro"
+   last-author="kat"
+   kind="dir"
+   uuid="b22b469e-84d2-0310-a31a-e481f3221026"
+   revision="567"/>
+<entry
+   committed-rev="542"
+   name="script-exercises.html"
+   text-time="2005-08-24T09:29:53.000000Z"
+   committed-date="2005-08-15T11:45:04.291195Z"
+   checksum="f49959cf66ae251fc2b7b1bbe124d8f2"
+   last-author="kat"
+   kind="file"
+   prop-time="2005-08-24T09:29:54.000000Z"/>
+<entry
+   committed-rev="552"
+   name="interpreter.html"
+   text-time="2005-08-24T09:29:53.000000Z"
+   committed-date="2005-08-19T14:46:58.874536Z"
+   checksum="4c1c8eab7b4ddb1c6a56ee92a255f719"
+   last-author="kat"
+   kind="file"
+   prop-time="2005-08-24T09:29:54.000000Z"/>
+<entry
+   committed-rev="552"
+   name="interpreter-show-variable.png"
+   text-time="2005-08-24T09:29:53.000000Z"
+   committed-date="2005-08-19T14:46:58.874536Z"
+   checksum="7f462f617b203ac38782517f8b82d8ac"
+   last-author="kat"
+   kind="file"
+   prop-time="2005-08-24T09:29:54.000000Z"/>
+<entry
+   committed-rev="543"
+   name="guido.png"
+   text-time="2005-08-24T09:29:53.000000Z"
+   committed-date="2005-08-15T11:47:00.706534Z"
+   checksum="93f57cd725ac8fc9803d135238fe1b24"
+   last-author="kat"
+   kind="file"
+   prop-time="2005-08-24T09:29:54.000000Z"/>
+<entry
+   committed-rev="542"
+   name="whitespace-editors-scripts.html"
+   text-time="2005-08-24T09:29:53.000000Z"
+   committed-date="2005-08-15T11:45:04.291195Z"
+   checksum="15afb6b33e30b81bfa7562844aa908a3"
+   last-author="kat"
+   kind="file"
+   prop-time="2005-08-24T09:29:54.000000Z"/>
+<entry
+   committed-rev="552"
+   name="interpreter-exercises.html"
+   text-time="2005-08-24T09:29:53.000000Z"
+   committed-date="2005-08-19T14:46:58.874536Z"
+   checksum="623bc07d374c14718e8a8073a6d4dfa6"
+   last-author="kat"
+   kind="file"
+   prop-time="2005-08-24T09:29:54.000000Z"/>
+<entry
+   committed-rev="542"
+   name="intro.html"
+   text-time="2005-08-24T09:29:53.000000Z"
+   committed-date="2005-08-15T11:45:04.291195Z"
+   checksum="16a41a439132e1f48da201d79b605b19"
+   last-author="kat"
+   kind="file"
+   prop-time="2005-08-24T09:29:54.000000Z"/>
+</wc-entries>
